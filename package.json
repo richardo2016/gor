@@ -1,14 +1,14 @@
 {
   "name": "go-reload",
   "version": "1.0.0",
-  "description": "",
+  "description": "go files watch and auto-reload tool",
   "main": "go-reload.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "richardo2016 <richardo2016@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chokidar": "^1.6.1",
     "colors": "^1.1.2",
     "commander": "^2.9.0",
@@ -16,5 +16,8 @@
   },
   "bin": {
     "gor": "./go-reload.js"
+  },
+  "engines": {
+    "node": ">=4.0.0"
   }
 }

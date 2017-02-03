@@ -1,0 +1,20 @@
+{
+  "name": "go-reload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "go-reload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "richardo2016 <richardo2016@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^1.6.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "tree-kill": "^1.1.0"
+  },
+  "bin": {
+    "gor": "./go-reload.js"
+  }
+}
